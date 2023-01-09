@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Filtros</title>
+	<style>
+		.contenedor{
+			width: 500px;
+			margin:auto;
+		}
+		.contenedor img{
+			width: 100%;
+		}
+		#img{
+			filter:opacity(.8);
+		}
+		#firefox{
+			filter: drop-shadow(5px 5px 2px #858585); 
+		}
+	</style>
+</head>
+<body>
+	<div class="contenedor">
+		<img id="img" src="IMG/foto.jpg" alt="">
+		<img src="IMG/foto.jpg" alt="">
+	</div>
+	<img id="firefox" width="350px" src="IMG/firefox-logo.svg" alt="">
+</body>
+</html>
+<!--
+drop-shadow(30px 10px 4px #4444dd)
+blur(valor) - 1px a 10px.
+grayscale(value) - 0.1 y 1.
+sepia(valor) - 0.1 y 1.
+brightness(valor) - 0.1 y 10.
+contrast(valor) - 0.1 y 10.
+hue-rotate(valor) - 1deg a 360deg.
+invert(valor) - 0.1 y 1.
+saturate(valor) - 0.1 y 10.
+opacity(valor - 0 y 1.
+-->

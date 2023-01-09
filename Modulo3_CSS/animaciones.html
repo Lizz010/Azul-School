@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Animaciones CSS</title>
+	<style>
+		.pelota{
+			width: 100px;
+			height: 100px;
+			background: red;
+			border-radius: 100px;
+			animation: recorrido 2s infinite;
+		}
+		@keyframes recorrido{
+			25%{
+				transform: translate(600px,0px);
+			}
+			50%{
+				transform: translate(600px,600px);
+			}
+			75%{
+				transform: translate(0px,600px);
+			}
+			100%{
+				transform: translate(0px,0px);
+			}
+		}
+		.corazon{
+			width: 150px;
+			margin:auto;
+			margin-top: 150px;
+			animation: escala .5s infinite;
+		}
+		.corazon img{
+			width: 100%;
+		}
+		@keyframes escala{
+			0%{
+				transform: scale(1);
+			}
+			50%{
+				transform: scale(1.5);
+			}
+			100%{
+				transform: scale(1);
+			}
+		}
+		.java{
+			width: 50px;
+			height: 75px;
+   			background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+            animation: play .8s steps(10) infinite alternate;	
+		}
+		@keyframes play {
+		   from { background-position:  0px; }
+		     to { background-position: -500px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="pelota"></div>
+	<div class="corazon">
+		<img src="IMG/corazon.png" alt="">
+	</div>
+	<div class="java"></div>
+	<img src="http://s.cdpn.io/79/sprite-steps.png" alt="">
+</body>
+</html>
+
+<!-- 
+.pelota{
+			width: 50px;
+			height: 75px;
+   			background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+            animation: play .8s steps(10) infinite alternate;	
+		}
+		@keyframes play {
+		   from { background-position:  0px; }
+		     to { background-position: -500px; }
+		}
+-->

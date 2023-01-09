@@ -1,0 +1,131 @@
+/* p{
+	background: #E5FF34;
+}
+
+
+p, li{
+	background: #000000;
+	color:#ffffff;
+}
+
+header p{
+	background: #394408;
+	color: blue;
+}
+
+section > p{
+	background: red;
+}
+
+h2 ~ li{
+	background: #2C54D6;
+} */
+
+/*TEXTO
+
+*{
+	font-family: Arial, Vernada;
+}
+
+.verdana{
+	font-family: Verdana;
+	font-weight: 600;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+p{
+	/*font: bold 17px Thahoma;
+	font-size: 17px;
+	font-style: italic;
+}
+
+#texto{
+	/*text-align-last: right;
+	text-indent:20px;
+	line-height: 20px;
+}
+
+#texto img{
+	vertical-align: text-top;
+}
+
+#texto a{
+	text-decoration: none;
+}
+*/
+
+/*
+
+h1{
+	color:#6BDC59;
+	color: deeppink  ;
+} */
+
+
+/*
+hexadecimal
+rgb(rojo,verde,azul)
+rgba(rojo,verde,azul,alfa)
+hsl(matiz,saturación,luminosidad)
+hsla(matiz,saturación,luminosidad,alfa)
+nombre de color.
+*/
+
+
+/* Tamaños
+
+section{
+	background: #000000;
+}
+
+section div{
+	width:500px;
+	height:200px;
+	overflow:scroll;
+	overflow-x: scroll;
+	margin: auto;
+	margin:10px 10px 10px 10px;
+	margin-left:;
+	margin-right:;
+	margin-bottom:;
+	margin-top:;
+	padding:10px 100px 10px 10px;
+	padding-left:;
+	padding-right: ;
+	padding-bottom: ;
+	padding-top: ; 
+}
+
+#uno{
+	background: #F48080;
+}
+
+#dos{
+	background: #96EFCF;
+} */
+
+
+
+
+/*Fondos*/
+
+#contenedor{
+	border: solid 2px;
+	width: 600px;
+	height: 200px;
+	margin: 200px auto;
+	padding: 10px;
+	color: #ffffff;
+	/*background-color: #8DE8B4;
+	background-image: url(../IMG/universo.jpg);
+	background-repeat: no-repeat;
+	/*background-position: 100%;
+	background-attachment:fixed;*/
+
+	background: #DB5D5D url(../IMG/universo.jpg) no-repeat fixed;
+}
+
+#contenedor2{
+	height: 1200px;
+}

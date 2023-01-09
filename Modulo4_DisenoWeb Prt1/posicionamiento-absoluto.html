@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Posicionamiento Absoluto</title>
+	<style>
+		.caja{
+			width: 400px;
+			margin: auto;
+		}
+		
+		.caja:hover .footer{
+			opacity: .8;
+		}
+
+		.header img{
+			width: 100%;
+			border: solid 2px; 
+		}
+		.footer{
+			    width: 392px;
+			    background: white;
+			    opacity: 1;
+			    position: relative;
+			    padding: 4px;
+			    border: solid 2px;
+			    text-align: center;
+			    top: -67px;
+			    transition: opacity .4s;
+			    z-index:3;
+		}
+		.footer2{
+			    width: 392px;
+			    background: red;
+			    opacity: 1;
+			    position: relative;
+			    padding: 4px;
+			    border: solid 2px;
+			    text-align: center;
+			    top: -90px;
+			    transition: opacity .4s;
+			    z-index:4;
+		}
+		ul{
+			background: red;
+		}
+		li{
+			background: blue;
+			display: inline-block;
+			width: 50px;
+		}
+		li div{
+			background: black;
+			color: white;
+			width: 50px;
+			position: absolute;
+			display: none;
+		}
+		li:hover div{
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="caja">
+		<div class="header">
+			<img src="img/imagen.jpg" alt="">
+		</div>
+		
+		<div class="footer">
+			<p>Este es el fondo de Windows XP</p>
+		</div>
+		<div class="footer2">
+			<p>Este es el fondo de Windows XP</p>
+		</div>
+		<ul>
+			<li>1
+				<div>
+					Hola
+				</div>
+			</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+	</div>
+
+</body>
+</html>
