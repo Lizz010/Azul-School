@@ -1,0 +1,185 @@
+/*GENERAL*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    /*font-weight: 100;*/
+}
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-right: 75px;
+    letter-spacing: -1px;
+    line-height: 65px;
+}
+h2 {
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+h3 {
+    font-weight: 400;
+    font-size: medium;
+    margin-right: 75px;
+}
+section {
+    background: #000000;
+    border-bottom: 8px solid #222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section div.contenido {
+    width: 1100px;
+    /*border: solid blue;*/
+    margin: auto;
+}
+section div.contenido div {
+    /*border: solid red;*/
+}
+.restaurar {
+    clear: both;
+}
+/*GENERAL FONDO*/
+
+html, body, .cover {
+    height: 100%;
+}
+.cover {
+    background: url(../Imgs/fondo.jpg);
+}
+/*HEADER*/
+
+section.cabecera {
+    background: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8));
+}
+nav {
+    margin: 0 3.5rem;
+    padding-top: 26px;
+    padding-bottom: 22px;
+}
+div.logo {
+    float: left;
+}
+.logo {
+    margin-left: -15px;
+    margin-top: -5px;
+}
+div.login {
+    float: right;
+}
+div.login:hover {
+    cursor: pointer;
+}
+div.login span {
+    padding: 6px 16px;
+    background: #e50914;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.presentacion {
+    text-align: center;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentacion input {
+    height: 60px;
+    width: 498px;
+    margin-top: 18px;
+    margin-bottom: 3px;
+    margin-left: -82px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #8c8c8c;
+    padding-left: 8px;
+    color: #000;
+}
+.presentacion span {
+    background: #e50914;
+    padding: 7px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: -40px;
+    border: solid #d30f18;
+}
+.presentacion span:hover {
+    cursor: pointer;
+    background: red;
+}
+/*AREA DE LAS SECTIONS/CONTENIDO*/
+
+.izquierda {
+    float: left;
+}
+.derecha {
+    float: right;
+}
+.flotanteTexto {
+    width: 59%;
+}
+.flotanteImagen {
+    width: 39%;
+}
+.contenido img {
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+.contenido h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+.contenido p {
+    font-size: 25px;
+    font-weight: 200;
+}
+.tv video {
+    position: absolute;
+    transform: translate(-372px, 67px);
+    width: 312px;
+    z-index: 1;
+}
+.disfruta video {
+    position: absolute;
+    transform: translate(-348px, 34px);
+    width: 264px;
+    z-index: 1;
+}
+.tarjetaInt, .portada{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.tarjetaInt{
+    width: 70%;
+    margin: auto;
+    border: solid 2px #333;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+    background: #000000;
+}
+.tarjeta{
+    position: relative;
+    transform: translate(-65px, -41px);
+}
