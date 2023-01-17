@@ -11,6 +11,7 @@
 h1 {
     font-size: 55px;
     font-weight: 700;
+    padding-top: 34px;
     padding-bottom: 10px;
     margin-right: 75px;
     letter-spacing: -1px;
@@ -32,7 +33,7 @@ h3 {
 section {
     background: #000000;
     border-bottom: 8px solid #222;
-    padding-top: 50px;
+    padding-top: 32px;
     padding-bottom: 50px;
 }
 section div.contenido {
@@ -68,7 +69,6 @@ section.cabecera {
 }
 nav {
     margin: 0 3.5rem;
-    padding-top: 26px;
     padding-bottom: 22px;
 }
 div.logo {
@@ -101,7 +101,7 @@ div.login span {
     height: 60px;
     width: 498px;
     margin-top: 18px;
-    margin-bottom: 3px;
+    margin-bottom: -40px;
     margin-left: -82px;
     border-radius: 2px 0px 0px 2px;
     border: solid 1px #8c8c8c;
