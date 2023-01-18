@@ -18,10 +18,10 @@ h1 {
     line-height: 65px;
 }
 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     font-weight: 400;
     font-size: 22px;
-    margin-right: 75px;
+    margin-right: 32px;
     margin-top: 10px;
     margin-bottom: 6px;
 }
@@ -33,7 +33,7 @@ h3 {
 section {
     background: #000000;
     border-bottom: 8px solid #222;
-    padding-top: 32px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 section div.contenido {
@@ -123,7 +123,7 @@ div.login span {
     cursor: pointer;
     background: red;
 }
-/*AREA DE LAS SECTIONS/CONTENIDO*/
+/*AREA OF SECTIONS/CONTENIDO*/
 
 .izquierda {
     float: left;
@@ -132,10 +132,13 @@ div.login span {
     float: right;
 }
 .flotanteTexto {
-    width: 59%;
+    width: 45%;
+    padding-top: 90px;
+    padding-left: 55px;
 }
 .flotanteImagen {
-    width: 39%;
+    width: 46%;
+    padding-top: 10px;
 }
 .contenido img {
     width: 100%;
@@ -146,22 +149,22 @@ div.login span {
 }
 .contenido h2 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 42px;
 }
 .contenido p {
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 22px;
+    font-weight: 400;
 }
 .tv video {
     position: absolute;
-    transform: translate(-372px, 67px);
-    width: 312px;
+    transform: translate(-440px, 78px);
+    width: 370px;
     z-index: 1;
 }
 .disfruta video {
     position: absolute;
-    transform: translate(-348px, 34px);
-    width: 264px;
+    transform: translate(-412px, 40px);
+    width: 314px;
     z-index: 1;
 }
 .tarjetaInt, .portada{
@@ -182,4 +185,29 @@ div.login span {
 .tarjeta{
     position: relative;
     transform: translate(-65px, -41px);
+    padding-top: 48px;
+}
+/*AREA OF QUESTIONS*/
+.preguntas h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.contPreguntas{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+.contPreguntas div{
+    text-align: left;
+    font-size: 20px;
+}
+.pregunta, .respuesta{
+    background: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.pregunta p, .respuesta p{
+    padding: 10px;
+    padding-left: 20px;
 }
