@@ -106,7 +106,7 @@ div.login span {
     padding-left: 8px;
     color: #000;
 }
-.presentacion span {
+.presentacion span{
     background: #e50914;
     padding: 7px;
     padding-bottom: 16px;
@@ -117,7 +117,7 @@ div.login span {
     margin-left: -40px;
     border: solid #d30f18;
 }
-.presentacion span:hover {
+.presentacion span:hover, .contPreguntas span:hover{
     cursor: pointer;
     background: red;
 }
@@ -199,14 +199,17 @@ div.login span {
 }
 .contPreguntas div{
     text-align: left;
-    font-size: 20px;
+    font-size: 21px;
 }
 .pregunta{
     background: #303030;
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 6px;
+    margin-bottom: 7px;
     margin-top: 5px;
+    margin-left: -44px;
+    margin-right: -44px;
     cursor: pointer;
+    font-weight: 400;
 }
 .respuesta{
     background: #303030;
@@ -227,4 +230,33 @@ div.login span {
     max-height: 0px;
     overflow: hidden;
     transition: all .s;
+}
+/**/
+.contPreguntas input {
+    height: 60px;
+    width: 452px;
+    margin-top: 18px;
+    margin-bottom: -40px;
+    margin-left: -1px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px #8c8c8c;
+    padding-left: 8px;
+    color: #000;
+}
+.contPreguntas span{
+    background: #e50914;
+    padding: 7px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: -24px;
+    border: solid #d30f18;
+}
+.contPreguntas h3{
+    font-size: 17px;
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 60px;
 }
