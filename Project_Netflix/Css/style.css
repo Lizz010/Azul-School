@@ -231,7 +231,6 @@ div.login span {
     overflow: hidden;
     transition: all .s;
 }
-/**/
 .contPreguntas input {
     height: 60px;
     width: 452px;
@@ -259,4 +258,22 @@ div.login span {
     text-align: center;
     margin-right: 0px;
     margin-top: 60px;
+}
+/*AREA FOOTER*/
+/*.pie{
+    columns: 4 10px;  
+}*/
+.pie p{
+    padding: 7px;
+    color: #737373;
+    font-size: 12px;
+}
+.pieContenido{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.pie .espacio{
+    width: 100px;
 }
