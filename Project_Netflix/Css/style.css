@@ -31,7 +31,7 @@ h3 {
 section {
     background: #000000;
     border-bottom: 8px solid #222;
-    padding-top: 20px;
+    padding-top: 28px;
     padding-bottom: 40px;
 }
 section div.contenido {
@@ -201,13 +201,30 @@ div.login span {
     text-align: left;
     font-size: 20px;
 }
-.pregunta, .respuesta{
+.pregunta{
     background: #303030;
     padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.respuesta{
+    background: #303030;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 .pregunta p, .respuesta p{
     padding: 10px;
     padding-left: 20px;
+}
+.respuesta hr{
+    border: 1px solid #262626;
+}
+.pregunta:hover .respuesta{
+    max-height: 1000px;
+}
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .s;
 }
