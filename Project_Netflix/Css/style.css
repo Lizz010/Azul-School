@@ -207,7 +207,7 @@ div.login span {
     margin-bottom: 7px;
     margin-top: 5px;
     margin-left: -44px;
-    margin-right: -44px;
+    margin-right: -42px;
     cursor: pointer;
     font-weight: 400;
 }
@@ -235,7 +235,7 @@ div.login span {
     height: 60px;
     width: 452px;
     margin-top: 18px;
-    margin-bottom: -40px;
+    margin-bottom: 32px;
     margin-left: -1px;
     border-radius: 2px 0px 0px 2px;
     border: solid 1px #8c8c8c;
@@ -276,4 +276,44 @@ div.login span {
 }
 .pie .espacio{
     width: 100px;
+}
+.pieTel{
+    padding-left: 250px;
+    padding-top: 32px;
+    padding-bottom: 15px;
+}
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.show{
+    display: block;
 }
