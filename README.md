@@ -1,3 +1,3 @@
 # Azul-School
 Html | Css | Js
-Carpetas y archivos de Azul School 
+Folders and Files Azul School 
