@@ -106,7 +106,7 @@ div.login span {
     padding-left: 8px;
     color: #000;
 }
-.presentacion span{
+.presentacion span {
     background: #e50914;
     padding: 7px;
     padding-bottom: 16px;
@@ -117,7 +117,7 @@ div.login span {
     margin-left: -40px;
     border: solid #d30f18;
 }
-.presentacion span:hover, .contPreguntas span:hover{
+.presentacion span:hover, .contPreguntas span:hover {
     cursor: pointer;
     background: red;
 }
@@ -167,12 +167,12 @@ div.login span {
     width: 314px;
     z-index: 1;
 }
-.tarjetaInt, .portada{
+.tarjetaInt, .portada {
     display: flex;
     /*justify-content: center;*/
     align-items: center;
 }
-.tarjetaInt{
+.tarjetaInt {
     width: 70%;
     margin: auto;
     border: solid 2px #333;
@@ -182,26 +182,27 @@ div.login span {
     z-index: 2;
     background: #000000;
 }
-.tarjeta{
+.tarjeta {
     position: relative;
     transform: translate(-65px, -41px);
     padding-top: 48px;
 }
 /*AREA QUESTIONS*/
-.preguntas h2{
+
+.preguntas h2 {
     font-weight: bold;
     font-size: 35px;
 }
-.contPreguntas{
+.contPreguntas {
     width: 650px;
     margin: auto;
     text-align: center;
 }
-.contPreguntas div{
+.contPreguntas div {
     text-align: left;
     font-size: 21px;
 }
-.pregunta{
+.pregunta {
     background: #303030;
     padding: 6px;
     margin-bottom: 7px;
@@ -211,22 +212,22 @@ div.login span {
     cursor: pointer;
     font-weight: 400;
 }
-.respuesta{
+.respuesta {
     background: #303030;
     margin-bottom: 5px;
     margin-top: 5px;
 }
-.pregunta p, .respuesta p{
+.pregunta p, .respuesta p {
     padding: 10px;
     padding-left: 20px;
 }
-.respuesta hr{
+.respuesta hr {
     border: 1px solid #262626;
 }
-.pregunta:hover .respuesta{
+.pregunta:hover .respuesta {
     max-height: 1000px;
 }
-.respuesta{
+.respuesta {
     max-height: 0px;
     overflow: hidden;
     transition: all .s;
@@ -242,7 +243,7 @@ div.login span {
     padding-left: 8px;
     color: #000;
 }
-.contPreguntas span{
+.contPreguntas span {
     background: #e50914;
     padding: 7px;
     padding-bottom: 16px;
@@ -253,84 +254,83 @@ div.login span {
     margin-left: -24px;
     border: solid #d30f18;
 }
-.contPreguntas h3{
+.contPreguntas h3 {
     font-size: 17px;
     text-align: center;
     margin-right: 0px;
     margin-top: 60px;
 }
 /*AREA FOOTER*/
+
 /*.pie{
     columns: 4 10px;  
 }*/
-.pie p{
+
+.pie p {
     padding: 7px;
     color: #737373;
     font-size: 10px;
 }
-.pieContenido{
+.pieContenido {
     width: 1100px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
-.pie .espacio{
+.pie .espacio {
     width: 100px;
 }
-.pieTel{
+.pieTel {
     padding-left: 250px;
     padding-top: 32px;
     padding-bottom: 15px;
 }
 .dropbtn {
-  background-color: #000000;
-  color: #999;
-  padding: 16px;
-  padding-right: 14px;
-  padding-left: 14px;
-  margin-top: 25px;
-  margin-left: 258px;
-  font-size: 15px;
-  border: 1px solid #333;
-  border-radius: 3px;
-  cursor: pointer;
+    background-color: #000000;
+    color: #999;
+    padding: 16px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-top: 25px;
+    margin-left: 258px;
+    font-size: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
 }
 .dropbtn:hover, .dropbtn:focus {
-  background-color: none ;
+    background-color: none;
 }
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #000000;
-  margin-left: 258px;
-  min-width: 110px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border: 1px solid #999;
-  z-index: 1;
-  font-size: 15px;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    margin-left: 258px;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid #999;
+    z-index: 1;
+    font-size: 15px;
 }
-.dropdown-content a{
+.dropdown-content a {
     color: #999999;
     padding: 1px 38px;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover{
+.dropdown-content a:hover {
     background-color: #1596fc;
     color: #ffffff;
 }
-.show{
+.show {
     display: block;
 }
-.fcountry{
+.fcountry {
     margin-left: 250px;
     margin-top: 20px;
     margin-bottom: -14px;
-}
-.fcountry p{
-
 }
