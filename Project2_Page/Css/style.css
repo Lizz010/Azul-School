@@ -1,82 +1,95 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: arial;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
 }
-body{
-	background: #EDEDED;
+body {
+    background: #EDEDED;
 }
-h1{
-	font-size: 2rem;
+h1 {
+    font-size: 2rem;
 }
-.EnviarDer{
-	margin-left: auto;
+.EnviarDer {
+    margin-left: auto;
 }
-#navegador{
-	background-color: #383838;
-	color: #fff;
-	padding-top: 10px;
-	padding-bottom: 10px;
+#navegador {
+    background-color: #383838;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-nav{
-	max-width: 1100px;
-	margin: auto;
+nav {
+    max-width: 1100px;
+    margin: auto;
 }
-nav ul{
-	display: flex;
-	align-items: center;
+nav ul {
+    display: flex;
+    align-items: center;
 }
-nav li{
-	background: #7e7e7e;
-	padding: 5px;
-	height: 20px;
-	list-style: none;
-	margin-right: 10px;
-	border-radius: 2px;
+nav li {
+    background: #7e7e7e;
+    padding: 5px;
+    height: 20px;
+    list-style: none;
+    margin-right: 10px;
+    border-radius: 2px;
 }
-nav li:hover{
-	background: #C9C9C9;
+nav li:hover {
+    background: #C9C9C9;
 }
 /*NAVEGADOR*/
+
 /*CONTENEDOR*/
-#contenedor{
-	background: #fff;
-	max-width: 1100px;
-	margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	display: flex;
+
+#contenedor {
+    background: #fff;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
 }
-#contenedorInt{
-	flex-grow: 1;
-	padding: 10px;
+#contenedorInt {
+    flex-grow: 1;
+    padding: 10px;
 }
-#contenedor aside{
-	width: 300px;
-	background: blue;
-	padding: 10px;
+.categoria {
+    display: flex;
+    background: #F1F1F1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid 1.5px #B5B5B5;
 }
-.categoria{
-	display: flex;
-	background: #F1F1F1;
-	padding:10px;
-	margin-bottom: 10px;
-	border-bottom: solid 1.5px #B5B5B5;
+.navPost {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    border-top: solid 2px #E9E9E9;
 }
-.artRelacionado{
-	width: 280px;
-	height: 150px;
-	background: red;
-	margin: auto;
-	margin-bottom: 5px;
+.navPost div {
+    flex-grow: 1;
+    padding: 10px;
 }
-.navPost{
-	display: flex;
-	text-align: center;
-	margin-top: 20px;
-	border-top: solid 2px #E9E9E9;
+/*ARTICLES/ASIDE*/
+
+#contenedor aside {
+    width: 300px;
+    background: #383838;
+    padding: 10px;
 }
-.navPost div{
-	flex-grow: 1;
-	padding: 10px;
+h3 {
+    font-size: 19px;
+}
+.artRelacionado {
+    width: 280px;
+    background: #01c6de;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 6px;
+    color: #ffffff;
+    transition: all .5s;
+}
+.artRelacionado:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 5px 0px #777;
 }
