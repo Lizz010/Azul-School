@@ -93,3 +93,20 @@ h3 {
     transform: scale(1.04);
     box-shadow: 0px 0px 5px 0px #777;
 }
+/*FOOTER*/
+
+section#footer {
+    background-color: #383838;
+    color: #ffffff;
+}
+footer {
+    display: flex;
+    max-width: 1100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    justify-content: space-between;
+}
+.logo p {
+    padding-top: 12px;
+}
