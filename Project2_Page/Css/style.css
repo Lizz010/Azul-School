@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: arial;
+    box-sizing: border-box;
 }
 body {
     background: #EDEDED;
@@ -109,4 +110,31 @@ footer {
 }
 .logo p {
     padding-top: 12px;
+}
+
+/*CONTENEDOR - RESPONSIVE DESIGN*/
+
+/*IPAD*/
+@media (max-width: 768px){
+	#contenedor{
+		flex-direction: column;
+	}
+	#contenedor aside{
+		width: 100%;
+		padding:10px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		background: #3cb2cB;
+	}
+	.artRelacionado{
+		width: 50%;
+	}
+	nav,footer{
+
+	}
+}
+/*MOVIL*/
+@media(max-width: 375px){
+
 }
