@@ -30,6 +30,7 @@ nav ul {
 nav li {
     background: #7e7e7e;
     padding: 5px;
+    padding-bottom: 24px;
     height: 20px;
     list-style: none;
     margin-right: 10px;
@@ -116,25 +117,9 @@ footer {
 
 /*IPAD*/
 @media (max-width: 768px){
-	#contenedor{
-		flex-direction: column;
-	}
-	#contenedor aside{
-		width: 100%;
-		padding:10px;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-	}
-	.artRelacionado{
-		width: 50%;
-	}
-	
-	nav,footer{
 
-	}
 }
 /*MOVIL*/
-@media(max-width: 375px){
+@media (max-width: 375px){
 
 }
