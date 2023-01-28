@@ -84,7 +84,7 @@ h3 {
 .artRelacionado {
     width: 280px;
     background: #01c6de;
-    margin: auto;
+    /*margin: auto;*/
     margin-bottom: 5px;
     padding: 6px;
     color: #ffffff;
@@ -125,11 +125,11 @@ footer {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: flex-start;
-		background: #3cb2cB;
 	}
 	.artRelacionado{
 		width: 50%;
 	}
+	
 	nav,footer{
 
 	}
