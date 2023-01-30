@@ -149,5 +149,11 @@ footer {
 	li {
     	margin-left: 14px;
 	}
+	footer {
+	    max-width: 95%;
+	    padding-bottom: 0px;
+	    flex-direction: column;
+	    text-align: center;
+	}
 
 }
