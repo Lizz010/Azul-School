@@ -138,5 +138,16 @@ footer {
 }
 /*MOVIL*/
 @media (max-width: 375px){
+	ul {
+		max-width: 95%;
+		flex-wrap: wrap-reverse;
+	}
+	.logo {
+	    margin: auto;
+	    padding-bottom: 10px;
+	}
+	li {
+    	margin-left: 14px;
+	}
 
 }
