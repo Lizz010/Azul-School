@@ -149,11 +149,26 @@ footer {
 	li {
     	margin-left: 14px;
 	}
+	h1 {
+    	font-size: 28px;
+	}
+	p {
+	    font-size: 16px;
+	}
+	h3 {
+    	font-size: 17px;
+	}
+	.navPost p{
+	    font-size: 10px;
+	}
 	footer {
 	    max-width: 95%;
 	    padding-bottom: 0px;
 	    flex-direction: column;
 	    text-align: center;
+	    font-size: small;
 	}
-
+	.artRelacionado {
+    	width: 98%;
+	}
 }
